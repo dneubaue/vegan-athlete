@@ -1,5 +1,6 @@
 # Site settings
 title: Vegan Athlete
+baseurl: "/vegan-athlete"
 
 # Build settings
 markdown: kramdown
