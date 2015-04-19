@@ -127,6 +127,58 @@ nav {
   .athletes .athlete:hover h2 {
     margin-top: -16px; }
 
+.testimonials .testimonial {
+  overflow: hidden; }
+  .testimonials .testimonial header {
+    justify-content: space-between;
+    margin: 0; }
+    .testimonials .testimonial header h6 {
+      font-size: 16px;
+      margin-bottom: 10px; }
+      .testimonials .testimonial header h6 span {
+        font-family: AvenirNext-Regular;
+        font-weight: 100;
+        color: #CCC; }
+  .testimonials .testimonial p {
+    margin-bottom: 10px; }
+  .testimonials .testimonial footer p {
+    font: 16px AvenirNext-Medium;
+    position: relative;
+    float: left;
+    color: #57AD68; }
+
+textarea {
+  width: 100%;
+  height: 100px;
+  border: 2px #CCC solid;
+  color: #333;
+  font: normal 16px AvenirNext-Regular;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px; }
+
+input {
+  width: 50%;
+  height: 40px;
+  border: 2px #CCC solid;
+  color: #333;
+  font: normal 16px AvenirNext-Regular;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px; }
+
+button {
+  width: 120px;
+  height: 40px;
+  background: #FFF;
+  border: 2px #57AD68 solid;
+  font: normal 14px AvenirNext-Regular;
+  color: #57AD68; }
+
+button:hover {
+  background: #57AD68;
+  color: #FFF; }
+
 .section-links a {
   font-family: AvenirNext-Regular;
   font-size: 18px;
@@ -168,6 +220,9 @@ body {
     max-width: 665px;
     margin: 0 auto; }
 
+div.clearfix {
+  clear: both; }
+
 hr {
   padding: 0;
   margin: 0 0 40px 0;
@@ -190,6 +245,10 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   color: #FFF; }
+
+h6 {
+  font-size: 16px;
+  margin-bottom: 10px; }
 
 p {
   font-family: "Charter-Roman";

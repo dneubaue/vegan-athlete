@@ -1,0 +1,6 @@
+---
+  title: New Testimonial
+  sender: John Doe
+  category: testimonial
+---
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat purus a molestie euismod. Phasellus neque eros, accumsan at quam fermentum, mattis placerat ex. Vivamus sit amet viverra lorem. Ut egestas a nisi et aliquam. Suspendisse potenti.

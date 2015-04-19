@@ -68,4 +68,36 @@ title: community
     </div>
   </section>
 
+  <section class="testimonials">
+    <header>
+      <img src="{{ site.baseurl }}/assets/img/leaf.svg">
+      <h1>Testimonials</h1>
+    </header>
+    {% for post in site.categories.testimonial %}
+      <article class="testimonial">
+        <header>
+          <h6>{{ post.title }}</h6>
+          <h6><span>{{ post.date | date: "%-d %B %Y" }}</span></h6>
+        </header>
+        {{ post.content }}
+        <footer>
+          <p>- {{ post.sender }}</p>
+        </footer>
+      </article>
+    {% endfor %}
+  </section>
+  <section class="submit-testimonials">
+    <header>
+      <img src="{{ site.baseurl }}/assets/img/leaf.svg">
+      <h1>Sumbit Your Own Testimonial</h1>
+    </header>
+    <form accept-charset="UTF-8" action="https://formkeep.com/f/155f4e13fce3" method="POST">
+      <input type="text" name="name" placeholder="Name">
+      <input type="text" name="title" placeholder="Title">
+      <textarea name="testimonial" placeholder="Testimonial"></textarea>
+      <input type="hidden" name="utf8" value="✓">
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
 </div>
