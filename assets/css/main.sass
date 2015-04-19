@@ -24,18 +24,10 @@ body
 
 hr
   padding: 0
+  margin: 0 0 40px 0
   border: none
   border-top: $light-gray 1px solid
   text-align: center
-
-hr::after
-  content: url(/vegan-athlete/assets/img/leaf.svg)
-  display: inline-block
-  position: relative
-  top: -0.7em
-  font-size: 1.5em
-  padding: 0 0.5em
-  background: white
 
 h1, h2, h3, h4, h5, h6
   margin: 0 0 20px 0
@@ -60,6 +52,22 @@ p
     family: $text-font
     size: $text-size
   color: $text-color
-  margin: 20px 0 40px 0
+  margin: 0 0 20px 0
   line-height: 30px
   letter-spacing: 0.5px
+
+article, section
+  margin-bottom: 40px
+  header
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-bottom: 20px
+
+    img
+      position: relative
+
+    h1
+      display: inline
+      margin: 0
+      margin-left: 20px

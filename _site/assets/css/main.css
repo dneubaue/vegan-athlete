@@ -86,7 +86,7 @@ nav {
   min-height: 500px;
   overflow: hidden; }
   .athletes .athlete {
-    background: #9EDE57;
+    background: #57AD68;
     width: 325px;
     height: 200px;
     position: relative;
@@ -97,6 +97,12 @@ nav {
     .athletes .athlete img {
       opacity: 0.7;
       transition: opacity 0.35s; }
+    .athletes .athlete a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
     .athletes .athlete div {
       position: absolute;
       bottom: 0;
@@ -121,6 +127,30 @@ nav {
   .athletes .athlete:hover h2 {
     margin-top: -16px; }
 
+.section-links a {
+  font-family: AvenirNext-Regular;
+  font-size: 18px;
+  color: #57AD68;
+  text-decoration: none; }
+
+article h3 {
+  font-size: 18px; }
+article h2 {
+  color: #333;
+  font-size: 22px;
+  text-align: left; }
+article .content a {
+  font-family: AvenirNext-Regular;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+  text-decoration: none;
+  text-decoration: underline;
+  color: #333; }
+article .content p > a {
+  color: #57AD68;
+  text-decoration: none; }
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -140,18 +170,10 @@ body {
 
 hr {
   padding: 0;
+  margin: 0 0 40px 0;
   border: none;
   border-top: #CCC 1px solid;
   text-align: center; }
-
-hr::after {
-  content: url(/vegan-athlete/assets/img/leaf.svg);
-  display: inline-block;
-  position: relative;
-  top: -0.7em;
-  font-size: 1.5em;
-  padding: 0 0.5em;
-  background: white; }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px 0;
@@ -173,6 +195,20 @@ p {
   font-family: "Charter-Roman";
   font-size: 18px;
   color: #333;
-  margin: 20px 0 40px 0;
+  margin: 0 0 20px 0;
   line-height: 30px;
   letter-spacing: 0.5px; }
+
+article, section {
+  margin-bottom: 40px; }
+  article header, section header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; }
+    article header img, section header img {
+      position: relative; }
+    article header h1, section header h1 {
+      display: inline;
+      margin: 0;
+      margin-left: 20px; }

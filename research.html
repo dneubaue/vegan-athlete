@@ -1,4 +1,29 @@
 ---
-layout: default
-title: research
+layout: page
+title: Vegan Athlete | Research
 ---
+
+<section class="section-links">
+  <header>
+    <img src="{{ site.baseurl }}/assets/img/leaf.svg" />
+    <h1>Research</h1>
+  </header>
+  <ul>
+    <li><a href="#Literature Review">Literature Review</a></li>
+    <li><a href="#Annotated Bibliography">Annotated Bibliography</a></li>
+  </ul>
+</section>
+
+
+{% for post in site.categories.research %}
+  <article id="{{ post.title  }}">
+    <header>
+      <img src="{{ site.baseurl}}/assets/img/leaf.svg" />
+      <h1>{{ post.title }}</h1>
+    </header>
+    <div class="content">
+      {{ post.content }}
+    </div>
+  </article>
+  <hr />
+{% endfor %}
