@@ -1,0 +1,178 @@
+.hero {
+  background-image: url(/assets/img/swim-start.jpg);
+  background-position: center -50px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  position: relative;
+  z-index: -1; }
+  .hero .logo {
+    width: 100%;
+    height: 156px;
+    background-image: url(/assets/img/logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -78px; }
+
+nav {
+  width: 100%;
+  margin: auto 0;
+  text-align: center;
+  background: #FFF;
+  box-shadow: 0 1px 3px #CCC;
+  position: relative;
+  z-index: 100; }
+  nav ul {
+    margin: 0;
+    padding-left: 40px;
+    list-style: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    nav ul li {
+      float: left;
+      padding: 15px 0; }
+      nav ul li .page-link {
+        display: inline-block;
+        margin-left: 0;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: "AvenirNext-Regular";
+        font-size: 1em;
+        color: #333; }
+      nav ul li .home-link {
+        display: inline-block;
+        width: 63px;
+        height: 38px;
+        background-image: url(/assets/img/nav-logo.svg);
+        background-position: center;
+        background-repeat: no-repeat; }
+
+.protein-hero {
+  height: 400px;
+  background-image: url(/assets/img/legumes.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.vitamin-b12-hero {
+  height: 400px;
+  background-image: url(/assets/img/veggies-in-dirt.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.iron-hero {
+  height: 400px;
+  background-image: url(/assets/img/tomatoes.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.creatine-hero {
+  height: 400px;
+  background-image: url(/assets/img/legumes.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.athletes {
+  width: 100%;
+  min-height: 500px;
+  overflow: hidden; }
+  .athletes .athlete {
+    background: #9EDE57;
+    width: 325px;
+    height: 200px;
+    position: relative;
+    float: left;
+    margin: 0;
+    margin-bottom: 15px;
+    overflow: hidden; }
+    .athletes .athlete img {
+      opacity: 0.7;
+      transition: opacity 0.35s; }
+    .athletes .athlete div {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 2em;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box; }
+      .athletes .athlete div h2 {
+        position: absolute;
+        top: 50%;
+        margin-top: -32px;
+        margin-left: -1em;
+        width: 100%;
+        transition: margin-top 0.35s; }
+  .athletes .athlete:nth-child(2), .athletes .athlete:nth-child(4), .athletes .athlete:nth-child(6) {
+    margin-left: 15px; }
+  .athletes .athlete:nth-child(5), .athletes .athlete:nth-child(6) {
+    margin-bottom: 0; }
+  .athletes .athlete:hover img {
+    opacity: 0.3; }
+  .athletes .athlete:hover h2 {
+    margin-top: -16px; }
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  padding: 0; }
+  body .container {
+    max-width: 665px;
+    margin: 0 auto; }
+  body .page-content {
+    margin: 40px 0; }
+  body .wrapper {
+    max-width: 665px;
+    margin: 0 auto; }
+
+hr {
+  padding: 0;
+  border: none;
+  border-top: #CCC 1px solid;
+  text-align: center; }
+
+hr::after {
+  content: url(/assets/img/leaf.svg);
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.5em;
+  background: white; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 20px 0;
+  padding: 0;
+  text-align: center;
+  font-family: "AvenirNext-Bold";
+  font-size: 24px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1.06px; }
+  h1 .light, h2 .light, h3 .light, h4 .light, h5 .light, h6 .light {
+    font-family: AvenirNext-Regular;
+    font-weight: lighter; }
+
+h2 {
+  color: #FFF; }
+
+p {
+  font-family: "Charter-Roman";
+  font-size: 18px;
+  color: #333;
+  margin: 20px 0 40px 0;
+  line-height: 30px;
+  letter-spacing: 0.5px; }
