@@ -17,10 +17,14 @@ body
     max-width: 665px
     margin: 0 auto
   .page-content
-    margin: 40px 0
+    margin-top: 40px
   .wrapper
     max-width: 665px
     margin: 0 auto
+  .tint
+    background-color: rgba(0, 0, 0, 0.2)
+    width: 100%
+    height: 100%
 
 div.clearfix
   clear: both
@@ -64,10 +68,14 @@ p
 article, section
   margin-bottom: 40px
   header
+    margin-bottom: 20px
     display: flex
     align-items: center
     justify-content: center
-    margin-bottom: 20px
+    /* Safari */
+    display: -webkit-flex
+    -webkit-align-items: center
+    -webkit-justify-content: center
 
     img
       position: relative
@@ -76,3 +84,9 @@ article, section
       display: inline
       margin: 0
       margin-left: 20px
+    h2
+      color: $text-color
+      font-size: 22px
+      width: 100%
+      text-align: left
+      margin: 0

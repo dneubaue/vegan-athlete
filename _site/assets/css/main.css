@@ -1,22 +1,26 @@
 .hero {
   background-image: url(/vegan-athlete/assets/img/swim-start.jpg);
   background-position: center -50px;
-  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   width: 100%;
   height: 600px;
   position: relative;
   z-index: -1; }
-  .hero .logo {
-    width: 100%;
-    height: 156px;
-    background-image: url(/vegan-athlete/assets/img/logo.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 50%;
-    margin-top: -78px; }
+
+.logo {
+  width: 100%;
+  height: 156px;
+  background-image: url(/vegan-athlete/assets/img/logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  margin-top: -78px; }
 
 nav {
   width: 100%;
@@ -28,12 +32,16 @@ nav {
   z-index: 100; }
   nav ul {
     margin: 0;
-    padding-left: 40px;
+    padding-left: 50px;
     list-style: none;
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-around; }
+    justify-content: space-around;
+    /* Safari */
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: space-around; }
     nav ul li {
       float: left;
       padding: 15px 0; }
@@ -53,34 +61,61 @@ nav {
         background-position: center;
         background-repeat: no-repeat; }
 
-.protein-hero {
-  height: 400px;
-  background-image: url(/assets/img/legumes.jpg);
-  background-position: center;
+.fullscreen-hero {
+  background-image: url(/vegan-athlete/assets/img/swim-start.jpg);
   background-attachment: fixed;
-  background-size: cover; }
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: -1; }
 
-.vitamin-b12-hero {
-  height: 400px;
-  background-image: url(/assets/img/veggies-in-dirt.jpg);
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover; }
+.discover-button {
+  border: 3px #FFF solid;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  margin-left: -75px;
+  width: 150px;
+  text-align: center; }
+  .discover-button:hover {
+    background-color: rgba(255, 255, 255, 0.3); }
+  .discover-button a {
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    text-transform: uppercase;
+    display: block;
+    padding: 16px 0; }
 
-.iron-hero {
-  height: 400px;
-  background-image: url(/assets/img/tomatoes.jpg);
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover; }
+section {
+  padding: 20px 0; }
+  section .post-body img {
+    float: right; }
 
-.creatine-hero {
-  height: 400px;
-  background-image: url(/assets/img/legumes.jpg);
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover; }
-
+/* .B12-section, .Protein-section, .Iron-section, .Creatine-section
+ *   padding: 20px 0
+ *   background:
+ *     attachment: fixed
+ *     repeat: no-repeat
+ *     size: cover
+ *   margin-bottom: 0
+ *   h2
+ *     color: $white
+ *   p
+ *     color: $white
+ * .B12-section
+ *   background-image: url("/vegan-athlete/assets/img/veggies-in-dirt.jpg")
+ * .Protein-section
+ *   background-image: url("/vegan-athlete/assets/img/legumes.jpg")
+ * .Iron-section
+ *   background-image: url("/vegan-athlete/assets/img/legumes.jpg")
+ * .Creatine-section
+ *   background-image: url("/vegan-athlete/assets/img/legumes.jpg") */
 .athletes {
   width: 100%;
   min-height: 500px;
@@ -130,8 +165,9 @@ nav {
 .testimonials .testimonial {
   overflow: hidden; }
   .testimonials .testimonial header {
+    margin: 0;
     justify-content: space-between;
-    margin: 0; }
+    -webkit-justify-content: space-between; }
     .testimonials .testimonial header h6 {
       font-size: 16px;
       margin-bottom: 10px; }
@@ -191,6 +227,8 @@ article h2 {
   color: #333;
   font-size: 22px;
   text-align: left; }
+article .content p {
+  text-indent: 40px; }
 article .content a {
   font-family: AvenirNext-Regular;
   font-weight: normal;
@@ -215,10 +253,14 @@ body {
     max-width: 665px;
     margin: 0 auto; }
   body .page-content {
-    margin: 40px 0; }
+    margin-top: 40px; }
   body .wrapper {
     max-width: 665px;
     margin: 0 auto; }
+  body .tint {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%; }
 
 div.clearfix {
   clear: both; }
@@ -261,13 +303,23 @@ p {
 article, section {
   margin-bottom: 40px; }
   article header, section header {
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px; }
+    /* Safari */
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center; }
     article header img, section header img {
       position: relative; }
     article header h1, section header h1 {
       display: inline;
       margin: 0;
       margin-left: 20px; }
+    article header h2, section header h2 {
+      color: #333;
+      font-size: 22px;
+      width: 100%;
+      text-align: left;
+      margin: 0; }

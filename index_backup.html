@@ -1,0 +1,34 @@
+---
+layout: fullpage
+title: Vegan Athlete
+---
+<header class="fullscreen-hero">
+  <div class="tint">
+    <div class="logo"></div>
+  </div>
+</header>
+<div class="discover-button">
+  <a href="{{ site.baseurl }}/about/">Discover</a>
+</div>
+
+<div class="page-content container">
+
+<section class="intro-section"> 
+  {% for post in site.categories.about %}
+    <article>
+      <header>
+        <img src="{{ site.baseurl }}/assets/img/leaf.svg">
+        <h1>{{ post.title }}</h1>
+      </header>
+      {{ post.content }}
+    </article>
+    <hr />
+  {% endfor %}
+</section>
+
+<section class="culprits-section">
+</section>
+
+<section>
+
+</div>
