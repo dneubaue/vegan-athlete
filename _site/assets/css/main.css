@@ -133,7 +133,10 @@ section {
     overflow: hidden; }
     .athletes .athlete img {
       opacity: 0.7;
-      transition: opacity 0.35s; }
+      transition: opacity 0.35s;
+      -webkit-transition: opacity 0.35s;
+      -moz-transition: opacity 0.35s;
+      -o-transition: opacity 0.35s; }
     .athletes .athlete a {
       position: absolute;
       top: 0;
@@ -154,7 +157,10 @@ section {
         margin-top: -32px;
         left: 0;
         width: 100%;
-        transition: margin-top 0.35s; }
+        transition: margin-top 0.35s;
+        -webkit-transition: margin-top 0.35s;
+        -moz-transition: margin-top 0.35s;
+        -o-transition: margin-top 0.35s; }
       .athletes .athlete div.athlete-description h6 {
         color: white;
         font-family: AvenirNext-UltraLight;
@@ -165,7 +171,10 @@ section {
         width: 100%;
         margin-top: 0;
         opacity: 0;
-        transition: margin-top 0.35s, opacity 0.35s; }
+        transition: margin-top 0.35s, opacity 0.35s;
+        -webkit-transition: margin-top 0.35s, opacity 0.35s;
+        -moz-transition: margin-top 0.35s, opacity 0.35s;
+        -o-transition: margin-top 0.35s, opacity 0.35s; }
   .athletes .athlete:nth-child(2), .athletes .athlete:nth-child(4), .athletes .athlete:nth-child(6) {
     margin-left: 15px; }
   .athletes .athlete:nth-child(5), .athletes .athlete:nth-child(6) {
