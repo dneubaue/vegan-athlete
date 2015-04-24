@@ -23,7 +23,7 @@
       width: 100%
       height: 100%
 
-    div
+    div.athlete-description
       position: absolute
       bottom: 0
       left: 0
@@ -36,9 +36,22 @@
         position: absolute
         top: 50%
         margin-top: -32px
-        margin-left: -1em
+        left: 0
         width: 100%
         transition: margin-top 0.35s
+
+      h6
+        color: white
+        font-family: AvenirNext-UltraLight
+        font-weight: normal
+        position: absolute
+        top: 50%
+        left: 0
+        width: 100%
+        margin-top: 0
+        opacity: 0
+        transition: margin-top 0.35s, opacity 0.35s
+
 
   .athlete:nth-child(2), .athlete:nth-child(4), .athlete:nth-child(6)
     margin-left: 15px
@@ -48,8 +61,12 @@
   .athlete:hover
     img
       opacity: 0.3
-    h2
-      margin-top: -16px
+    .athlete-description
+      h2
+        margin-top: -16px
+      h6
+        margin-top: 16px
+        opacity: 1
 
 .testimonials
   .testimonial
