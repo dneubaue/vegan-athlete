@@ -1,10 +1,9 @@
 $(document).ready(function() {
   // Get the current URL
-  var currentUrl = window.location.href;
-  debugger;
+  var currentPath = window.location.pathname;
 
   // Get the span you want with a combination class and attribute and child jQuery selector
-  var currentMenuItem = $(".page-link[href='" + currentUrl + "']");
+  var currentMenuItem = $(".page-link[href='" + currentPath + "']");
 
   // Then add your class
   currentMenuItem.addClass("current-page");
