@@ -60,6 +60,8 @@ nav {
         background-image: url(/vegan-athlete/assets/img/nav-logo.svg);
         background-position: center;
         background-repeat: no-repeat; }
+      nav ul li .current-page {
+        font-weight: 600; }
 
 .fullscreen-hero {
   background-image: url(/vegan-athlete/assets/img/swim-start.jpg);

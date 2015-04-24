@@ -1,12 +1,13 @@
 $(document).ready(function() {
   // Get the current URL
   var currentUrl = window.location.href;
+  debugger;
 
   // Get the span you want with a combination class and attribute and child jQuery selector
-  var currentMenuItem = $(".main-nav-link[href='" + currentUrl + "'] > .main-nav-item");
+  var currentMenuItem = $(".page-link[href='" + currentUrl + "']");
 
   // Then add your class
-  currentMenuItem.addClass("current");
+  currentMenuItem.addClass("current-page");
 });
 $(window).scroll(function() {
   var scrollTop = $(this).scrollTop();
