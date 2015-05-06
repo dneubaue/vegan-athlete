@@ -1,6 +1,6 @@
 ---
-  title: Creatine
-  category: culprit
+  title: Vegans Cannot Build Muscle Because of Low Creatine Levels
+  category: myth
   date: 2015-4-21 02:00:00
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat purus a molestie euismod. Phasellus neque eros, accumsan at quam fermentum, mattis placerat ex. Vivamus sit amet viverra lorem. Ut egestas a nisi et aliquam. Suspendisse potenti. In lobortis tristique magna non consectetur. Pellentesque facilisis lacinia erat eget mollis. Nulla suscipit ultrices tellus, at vulputate urna gravida pulvinar. Sed a massa ut ipsum imperdiet pellentesque a in dui. Nulla tristique leo sed feugiat cursus. 
+Creatine is a naturally occurring substance in the human body, meaning we produce the same amount of creatine regardless of diet. Carnivores tend to have higher creatine levels than vegans because the meat they consume contains creatine. Thus, carnivores have two sources of creatine, their body and their diet, whereas vegans only have one source. Supplementing creatine may have a bad reputation set my college students looking to maximize weight gain, it is the only clinically proven supplement to show time and time again to decrease recovery time and increase muscle development. Better yet, studies have shown that vegans respond better to creatine supplementation than carnivores, resulting in better muscular gains.

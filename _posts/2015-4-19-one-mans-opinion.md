@@ -1,6 +1,5 @@
 ---
   title: One Man's Opinion
-  category: about
+  category: controversey
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat purus a molestie euismod. Phasellus neque eros, accumsan at quam fermentum, mattis placerat ex. Vivamus sit amet viverra lorem. Ut egestas a nisi et aliquam. Suspendisse potenti. In lobortis tristique magna non consectetur. Pellentesque facilisis lacinia erat eget mollis. Nulla suscipit ultrices tellus, at vulputate urna gravida pulvinar. Sed a massa ut ipsum imperdiet pellentesque a in dui. Nulla tristique leo sed feugiat cursus. Duis dolor tellus, imperdiet sed nulla sit amet, rutrum condimentum tortor. Quisque interdum aliquet ultrices. Fusce egestas eleifend augue, id pulvinar lacus viverra in.
+Through my research, I have come to the conclusion that athletes can, not only compete on a vegan diet, but thrive on it. Many of the concerns athletes have of becoming a vegan are valid, but are usually blown out of proportion. It may be harder to get some nutrients like protein and iron on a vegan diet, but it surely is not impossible. There is a plethora a successful vegan athletes who can attest to this. While I do think being an elite athlete on a vegan diet is feasible, I am skeptical to believe it is the optimal diet for achieving one’s athletic goals. Having said that, many people are vegan because of religious, health, or ethical reasons and it is important to know that this audience is not at a distinct disadvantage because of their beliefs.
