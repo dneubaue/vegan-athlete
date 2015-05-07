@@ -355,3 +355,7 @@ article, section {
       width: 100%;
       text-align: left;
       margin: 0; }
+  article .post-body p > a, section .post-body p > a {
+    color: #57AD68;
+    text-decoration: none;
+    font-size: 14px; }
